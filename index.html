@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Face Recognition System with Webcam</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Face Recognition System</h1>
+
+      <!-- Webcam Stream -->
+      <div class="video-section">
+        <h2>Live Webcam Feed</h2>
+        <video id="webcam" autoplay playsinline></video>
+        <button id="captureButton">Capture & Identify</button>
+      </div>
+
+      <!-- Result Section -->
+      <div class="result-section" id="result">No face detected</div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
